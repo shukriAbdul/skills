@@ -1,0 +1,97 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+  margin: 10% 32%;
+  background-color: rgb(70, 70, 70);
+
+}
+
+
+.card {
+ 
+  width: 400px;
+  height: 310px;
+  background-color: #c5c5c5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.body {
+  padding: 20px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.skill-name {
+  width: 120px;
+  font-size: 16px;
+}
+
+.skill-level {
+  width: 160px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+  
+}
+
+.skill-percent {
+  background-color: #10391c;
+  height: 100%;
+  
+}
+
+.skill-percent-number {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+
+
+@media (max-width : 676px){
+  /* body{
+    margin: 15% 5%;
+  } */
+  .card{
+    margin-left: -80px;
+    margin-top: 80px;
+    width: 300px;
+    height: 320px;
+  }
+}
+
+
+
+
+
+
+
+
